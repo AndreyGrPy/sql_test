@@ -1,0 +1,1 @@
+SELECT category_name FROM adverts INNER JOIN Costs ON adverts.advert_id=Costs.advert_id WHERE Costs.cost < 500
